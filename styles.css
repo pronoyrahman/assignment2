@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800;900&family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.header-area{
+    padding: 0 20px;
+
+}
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    padding-top: 52px;
+    max-width: 1350px;
+    margin: 0 auto;
+    
+}
+
+
+.head-left{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #131318;
+}
+
+.head-right>ul{
+    display: flex;
+    
+}
+.head-right li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1em;
+}
+.head-right li a{
+    text-decoration: none;
+    color: #424247;
+}
+span{
+    color: #FF5400;
+font-family: Mulish;
+font-weight: 800;
+
+}
+.menu-bar{
+    display: none;
+}
+/* banner section */
+
+.banner-area{
+    padding: 50px 20px;
+}
+.banner{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 500px;
+   max-width: 1350px;
+   margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 16px;
+  
+}
+.banner-head{
+    max-width:676px ;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #FFF;
+font-family: Mulish;
+font-size: 4rem;
+font-weight: 800;
+text-align: center;
+padding-top: 106px;
+}
+.banner-description{
+   
+    color: #FFF;
+    text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; 
+padding: 60px;
+
+}
+.banner-footer{
+    display: flex;
+    max-width: 768px;
+    margin: 0 auto;
+    justify-content: space-between;
+padding: 16px;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+}
+.input-feild{
+    width: calc((100% - 72px) / 4);
+
+}
+.input-feild .btn-class,
+.input-feild select,
+.input-feild input{
+    width: 100%;
+}
+.btn-class{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 700;
+}
+
+
+
+/* responsive */
+@media screen and (max-width:600px) {
+ 
+    .head-right{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .head-left h1{
+    font-size: 1.2rem;
+    }
+    .banner{
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .banner-title{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 6px;}
+
+    .banner-footer{
+        align-items: center;
+        gap: 16px;
+      flex-direction: column;
+      padding: 24px;
+    }
+    .banner-description{
+   
+        text-align: center;
+    line-height: 26px; 
+    padding: 6px;}
+ 
+}
