@@ -392,6 +392,9 @@ height: 52px;
     width: 50%;
     border-radius: 15px;
 }
+.travel-video video{
+    border-radius: 15px;
+}
 .travel-section h3{
     color: #131318;
 font-family: Mulish;
@@ -412,6 +415,57 @@ font-weight: 400;
     font-size: 1rem;
     font-weight: 700;
 }
+/* newsletter */
+.newsletter{
+   max-width: 1350px;
+   margin: 0 auto;
+   padding: 50px 20px; 
+   display: flex;
+   gap: 50px;
+}
+.newsletter-description{
+    width: 50%;
+    border: 2px solid tomato;
+    border-radius:15px ;
+    height: 322px;
+    background-color:#fffff8;
+    padding: 50px;
+}
+.newsletter-image{
+    width: 50%;
+}
+.newsletter h3{
+    color: #131318;
+   
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.newsletter p{
+    color: #5A5A5D;
+
+font-family: Mulish;
+font-size: 1.2 rem;
+font-weight: 400;
+padding-bottom: 20px;
+}
+.newsletter input{
+    width: 410px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 5px;
+}
+ .btn-two{
+    width: 410px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+
+color: #FFF;
+text-align: center;
+font-size: 1.2rem;
+font-weight: 800;
+ }
 
 
 /* responsive */
@@ -532,4 +586,28 @@ left: 30px;
 .btn-one {
     margin-left: 20px;
 }
+/* newsletter */
+.newsletter{
+    flex-direction: column;
+}
+.newsletter-description{
+    width: 95%;
+    padding: 10px;
+}
+.newsletter input{
+    width: 310px;
+height: 42px;
+
+}
+ .btn-two{
+    width: 310px;
+height: 42px;
+ }
+ .newsletter h3{
+    padding-bottom: 20px;
+}
+.newsletter-image img{
+    width: 200%;
+}
+
 }
