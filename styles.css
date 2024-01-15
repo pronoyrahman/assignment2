@@ -273,6 +273,146 @@ font-weight: 400;
 line-height: 26px; 
 }
 
+/* deals and discount */
+.deals-and-discount{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.banner-deal{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 106px;
+    }
+    .banner-discount{
+        color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; 
+    }
+    
+.discount-logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.discount-logo .fa-solid{
+    color: #FF5400;
+    padding: 10px;
+}
+.discount-box-section{
+    border: 2px solid tomato;
+    width: 579px;
+height: 289px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: relative;
+top: 105px;
+left: 650px;
+}
+.discount-image-section{
+   background-image: url(Images/Group\ 39.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   height: 500px;
+  max-width: 1350px;
+  margin: 0 auto;
+   margin-top: 50px;
+   border-radius: 16px;
+}
+.saturini{
+    padding-left: 45px;
+}
+h5{
+    color: #FF5400;
+font-size: 1.2rem;
+
+font-weight: 800;
+padding: 20px 0;
+}
+
+.discount-image-section-two{
+
+    background-image: url(Images/Rectangle\ 7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 500px;
+   max-width: 1350px;
+   margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+.discount-box-section-two{
+    border: 2px solid tomato;
+    width: 579px;
+height: 289px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: relative;
+top: 105px;
+left: 105px;
+}
+.btn-one{
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-left: 600px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+   margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 174px;
+height: 52px;
+
+}
+/* travel-section */
+.travel-section{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    gap: 50px;
+}
+.travel-description{
+    width: 50%;
+}
+.travel-video{
+    width: 50%;
+    border-radius: 15px;
+}
+.travel-section h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 2.5rem;
+
+font-weight: 800;
+line-height: 60px; /* 150% */
+}
+.travel-section p{
+    padding-bottom: 20px;
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+.travel-section ul li{
+    padding-bottom: 10px;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 
 /* responsive */
 @media screen and (max-width:600px) {
@@ -345,5 +485,51 @@ margin-bottom: 20px;
         padding: 0;
         margin-left: 20px;
      }
+     
+.discount-image-section-two{
+    width: 90%;
+    margin-top: 5px;
+}
+.discount-image-section{
+    width: 100%;
+    margin-top: 5px;
+   
+}
+.discount-box-section,
+.discount-box-section-two{
+   width: 85%;
+   height: 80%;
+top: 20px;
+left: 30px;
  
+}
+.discount-logo{
+    flex-direction: column;
+}
+.saturini{
+    padding-left: 5px;
+}
+.saturini p{
+    padding: 5px;
+}
+.btn-one {
+   
+   margin-left: 0;
+}
+/* travel */
+.travel-section{
+  flex-direction: column;
+
+}
+.travel-description{
+    width: 100%;
+}
+.travel-video video{
+    width: 200%;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.btn-one {
+    margin-left: 20px;
+}
 }
